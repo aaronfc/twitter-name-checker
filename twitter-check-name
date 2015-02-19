@@ -1,5 +1,5 @@
 #!/usr/env python
-import TwitterNameChecker
+from TwitterNameChecker import TwitterNameChecker
 import sys
 
 if len(sys.argv) <= 1:
