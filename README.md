@@ -13,6 +13,6 @@ python setup.py install
 Usage
 -----
 ```
-twitter-name-check nameToCheck1 [nameToCheck2...]
+twitter-name-check [name ...]
 ```
 
