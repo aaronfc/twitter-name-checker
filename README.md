@@ -16,3 +16,16 @@ Usage
 twitter-name-check [name ...]
 ```
 
+Samples
+-------
+```
+$ twitter-check-name aaronfc
+aaronfc [X]
+```
+```
+$ twitter-check-name aaronfc github nonexistent123456
+aaronfc [X]
+github [X]
+nonexistent123456 [V]
+```
+
