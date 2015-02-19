@@ -1,0 +1,13 @@
+#!/usr/env python
+import TwitterNameChecker
+import sys
+
+if len(sys.argv) <= 1:
+    print "(!) Wrong call. You need to pass at least one parameter."
+    sys.exit(-1)
+
+checker = TwitterNameChecker.TwitterNameChecker()
+names = sys.argv[1:]
+for name in names:
+    print "{} [{}]".format(name, "V" if checker.isFree(name) else "X")
+
